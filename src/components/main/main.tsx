@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
+// 현재 사용하지 않음
 const Example = () => {
   return (
     <TransformWrapper
