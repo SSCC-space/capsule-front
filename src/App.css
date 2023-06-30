@@ -1,9 +1,28 @@
 .App {
   text-align: center;
+  background-color: #f3f3f3;
+}
+
+
+.Background {
+  width: 999999999px;
+  height: 9999999999px;
+
+  position: absolute;
+  left: -500000px;
+  top: -500000px;
+
+  z-index: -10;
+  
+  background-image: 
+    radial-gradient(#e6e6e6 10%, transparent 10%);
+  background-position: 16px 16px;
+  background-size: 32px 32px;
+  background-color: #ffffff;
 }
 
 .App-logo {
-  height: 40vmin;
+height: 40vmin;
   pointer-events: none;
 }
 
@@ -36,3 +55,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/*아래 폰트*/
+@font-face {
+  font-family: "chab";
+  src: url("./font/chab.ttf");
+}
+
+@font-face {
+    font-family: 'this_is_font_name';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+     font-weight: normal;
+     font-style: normal; 
+}
+
+.YearDisplay {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'chab';
+  color: #f9c300;
+  text-shadow: 3px 3px 3px #969696;
+}
+
